@@ -1,0 +1,15 @@
+{
+	"name": "NFO downloader",
+	"description": "Create nfo files from certain sites.",
+	"version": "1.0",
+	"manifest_version": 2,
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"page_action": {
+		"default_icon": "hello_extensions.png",
+		"default_title": "I might be able download a NFO file"
+	},
+	"permissions": ["declarativeContent", "activeTab", "downloads"]
+}
